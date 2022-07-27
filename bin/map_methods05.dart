@@ -9,5 +9,8 @@ void main() {}
 Map func(Map data) {
   //your code here
 
+  String x = data['last_name'];
+  data.remove('last_name');
+  data['surname'] = x;
   return data;
 }
