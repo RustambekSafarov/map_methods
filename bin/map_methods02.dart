@@ -6,6 +6,6 @@ void main() {}
 
 Map func(Map data, int cost) {
   //your code here
-
+  data['price']=80000;
   return data;
 }
