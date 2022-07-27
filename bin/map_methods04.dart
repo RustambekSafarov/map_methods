@@ -7,6 +7,6 @@ void main() {}
 
 Map func(Map data) {
   //your code here
-
+  data['password']+='@';
   return data;
 }
